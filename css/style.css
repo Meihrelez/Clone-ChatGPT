@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Oswald:wght@700&family=PT+Serif:ital,wght@1,700&family=Poppins:wght@500;700;800&family=Roboto:wght@400;500&display=swap');
+*{
+    font-family: 'Inter';
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #343541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 39px;
+    height: 39.526px;
+    flex-shrink: 0;
+    margin-bottom: 19.47px;
+}
+p{ 
+   
+    width: 319px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+#p1{
+    margin-bottom: -10px;
+}
+#p2{
+    margin-bottom: 20px;
+}
+.caixa{
+
+    width: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+button{
+    display: flex;
+    width: 75px;
+    height: 38px;
+    padding: 5px 0px 6px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #0FA47F;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+
+}
